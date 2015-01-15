@@ -1,0 +1,25 @@
+h1 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2em;
+	color: #ffffff;
+}
+
+body {
+	background: url("assets/background.jpg");
+	background-size: cover;
+	font-size: 20px;
+	font-family: 'Merriweather', serif;
+	color: #ffffff;
+	text-align: center; 
+	margin: auto;
+	line-height: 30px;
+	padding: 20px 200px;
+	}
+
+
+.logo {
+background-image: url("assets/logo.png");
+background-repeat: no-repeat;
+height: 100px;
+width: 350px;
+}
