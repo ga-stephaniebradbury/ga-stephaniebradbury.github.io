@@ -1,0 +1,142 @@
+body {
+  font-family: 'Droid Sans', sans-serif;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2em;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #000000;
+  border-bottom-color: #fffebb;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+  width: 175px;
+  height: 70px;
+  outline: 2px solid #222222;
+  text-align: center;
+  line-height: 32px;
+  color: black;
+  background: white;
+}
+
+
+nav {
+  font-size: 1em;
+  float: right;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 16px;
+  display: inline-block;
+}
+
+section {
+  padding: 0 200px 20px 200px;
+  background: #dedede;
+  color: #000000;
+  overflow: auto;
+}
+
+footer {
+  width: 100%;
+  font-size: .75em;
+  text-align: center;
+  padding: 18px 0;
+  clear: both;
+  color: #000000;
+  background: #ffffff;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  width: 400px;
+}
+
+#img {
+  background: #dedede;
+}
+
+#maincontent {
+  color: #000000;
+  width: 100%;
+}
+
+#internallogo {
+  height: 86px;
+  width: 631px;
+}
+
+
+@media (max-width: 800px) {
+  nav {
+    width: 80%;
+    font-size: 1em;
+  }
+  img {
+    width: 400px;
+  }
+
+
+#internallogo {
+  width: 505px;
+  height: 52px;
+}
+
+  #maincontent {
+    font-size: 1.2em;
+    width: 30%;
+  }
+}
+
+@media (max-width: 400px) {
+  nav {
+    width: 60%;
+    background: white;
+  }
+  img {
+    padding-top: 2em;
+    width: 250px;
+  }
+  #maincontent, #skills {
+    width: 90%;
+    padding: 0;
+  }
+
+  #skills {
+    margin-bottom: 1.5em;
+  }
+
+  #internallogo {
+  width: 404px;
+  height: 42px;
+}
+
+  li {
+    width: 95%;
+    outline-width: .5em;
+    height: 2em;
+    line-height: 1.5em;
+    padding: .5em;
+  }
+}
